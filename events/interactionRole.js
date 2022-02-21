@@ -23,7 +23,7 @@ module.exports = {
             }
             if (interaction.customId == "role2") {
                 if ( User.roles.cache?.has(`${RoleID2}`)) {
-                    let role = interaction.guild.roles.cache.get(`${RoleID1}`);
+                    let role = interaction.guild.roles.cache.get(`${RoleID2}`);
                     User.roles.remove(role);
                     interaction.reply({content:`${Role2} has been removed!`, ephemeral: true});
                 } else {
