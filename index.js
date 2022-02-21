@@ -8,6 +8,8 @@ const config = require('./config.json');
 require('dotenv').config();
 var token = process.env.TOKEN;
 
+const keep_alive = require('./keep_alive.js')
+
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS],
 });
