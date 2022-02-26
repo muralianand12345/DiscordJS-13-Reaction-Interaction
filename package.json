@@ -1,23 +1,27 @@
 {
-  "name": "tony-reaction-role",
-  "version": "1.0.0",
-  "description": "Reaction Role by Murali Anand for Tony Nghia Family Discord server",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "discord.js"
-  ],
-  "author": "Murali Anand",
-  "license": "ISC",
-  "dependencies": {
-    "@discordjs/builders": "^0.6.0",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "discord-api-types": "^0.24.0",
-    "discord.js": "^13.6.0",
-    "dotenv": "^10.0.0",
-    "fs": "^0.0.1-security",
-    "nodemon": "^2.0.15"
-  }
+    "name": "tony-reaction-role",
+    "version": "1.0.0",
+    "description": "Reaction Role by Murali Anand for Tony Nghia Family Discord server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "nodemon server.js"
+    },
+    "keywords": [
+        "discord.js"
+    ],
+    "author": "Murali Anand",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/builders": "^0.6.0",
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "discord-api-types": "^0.24.0",
+        "discord.js": "^13.6.0",
+        "dotenv": "^10.0.0",
+        "fs": "^0.0.1-security",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {
+        "node": "^16.13.2"
+    }
 }
